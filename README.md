@@ -1,30 +1,30 @@
-# Insurance Project
 
-This is an Insurance project that provides insurance plans based on age and risk.  
-The project is split into two repositories:  
-- **Frontend:** `frontend_Insurance`  
-- **Backend:** `backend_Insurance`
+# Backend – Insurance Plan Calculator
 
-## Deployment Guide – Vercel
-
-This guide explains how to run the project locally and deploy the frontend to [Vercel](https://vercel.com).
+This is the backend API for the **Insurance Plan Calculator** project.  
+It calculates the recommended insurance plan based on **age** and **risk level**.  
 
 ---
 
-### 1. Prerequisites
-
-- [Node.js](https://nodejs.org/) installed on your system (v18 or later recommended).  
-- A [Vercel](https://vercel.com/signup) account (free or pro).  
-- [Git](https://git-scm.com/) installed.  
-- (Optional) A database service (if your backend requires one).
+## 🚀 Tech Stack
+- **Node.js** – Runtime
+- **Express.js** – Web framework
+- **Sequelize** – ORM for database connection
+- **Supabase** – Database hosting
 
 ---
 
-### 2. Local Setup
+## 🛠️ Local Setup
 
-#### 2.1 Clone the repositories
+1. **Clone the repository**
+   bash
+   git clone https://github.com/vishwasdev01/backend_insurance.git
+   cd backend_insurance
+   npm install
+2. Create db.js
+Inside the root directory, create a file named db.js and add your Supabase credentials:
 
-**Frontend:**
-```bash
-git clone https://github.com/<yourusername>/frontend_Insurance.git
-cd frontend_Insurance
+
+3. Run the serve : npm run dev
+4. API Endpoints : GET http://localhost:5102/api/recommendation
+   
