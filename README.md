@@ -21,10 +21,11 @@ It calculates the recommended insurance plan based on **age** and **risk level**
    git clone https://github.com/vishwasdev01/backend_insurance.git
    cd backend_insurance
    npm install
-2. Create db.js
+   npm run dev
+3. Create db.js
 Inside the root directory, create a file named db.js and add your Supabase credentials:
 
 
-3. Run the serve : npm run dev
-4. API Endpoints : GET http://localhost:5102/api/recommendation
+4. Run the serve : npm run dev
+5. API Endpoints : GET http://localhost:5102/api/recommendation
    
